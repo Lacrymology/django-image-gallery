@@ -13,9 +13,9 @@ setup(
     packages=find_packages(),
     provides=['image_gallery', ],
     include_package_data=True,
-    requires = [
-        'django-inline-ordering',
-        'sorl-thumbnails',
+    install_requires = [
+        'django-admin-sortable',
+        'sorl-thumbnail',
         ],
     package_data={
         'image_gallery': [
