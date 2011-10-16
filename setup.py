@@ -9,7 +9,7 @@ setup(
     author_email='lacrymology@gmail.com',
     url='http://github.com/Lacrymology',
     description = 'Django generic image gallery plugin with support for '
-                  'reordering in admin.'
+                  'reordering in admin.',
     packages=find_packages(),
     provides=['image_gallery', ],
     include_package_data=True,
