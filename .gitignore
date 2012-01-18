@@ -1,0 +1,4 @@
+image_gallery.egg-info
+*~
+*.pyc
+.git
